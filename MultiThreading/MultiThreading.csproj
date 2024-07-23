@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MultiThreading.JoinMethThread</StartupObject>
+    <StartupObject>MultiThreading.ThreadLocking</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="ThreadConst.cs" />
     <Compile Include="ThreadDemo.cs" />
     <Compile Include="ThreadDemo2.cs" />
+    <Compile Include="ThreadLocking.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

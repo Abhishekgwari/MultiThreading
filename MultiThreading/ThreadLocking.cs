@@ -25,12 +25,14 @@ namespace MultiThreading
            ThreadLocking obj = new ThreadLocking();
 
           Thread t1 = new Thread (obj.Display);
-            Thread t2 = new Thread(obj.Display);
+            Thread t2 = new Thread(obj.Display); 
             Thread t3 = new Thread(obj.Display);
             t1.Start();
             t2.Start();
             t3.Start();
-            Console.ReadLine();
+ 
+           
+            Console.ReadLine(); 
         }
     }
 }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MultiThreading.ThreadPriority</StartupObject>
+    <StartupObject>MultiThreading.ThreadPerformence</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
     <Compile Include="ThreadDemo.cs" />
     <Compile Include="ThreadDemo2.cs" />
     <Compile Include="ThreadLocking.cs" />
+    <Compile Include="ThreadPerformence.cs" />
     <Compile Include="ThreadPriority.cs" />
   </ItemGroup>
   <ItemGroup>
